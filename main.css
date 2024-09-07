@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,tbody,table,.card-header,.card-body{
+    background:  linear-gradient(#0a2020,#0a2020);
+    color: white;
+}
+tr{
+    color: white;
+}

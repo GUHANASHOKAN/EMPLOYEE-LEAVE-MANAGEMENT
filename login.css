@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back{
+    height: 30vh;
+    width: 100%;
+    background: #01AFBA;
+}
+.circle{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-left: 45%;
+    margin-top: 20vh;
+    border-radius: 50%;
+    background: white;
+    box-shadow: black;
+    
+}
+img{
+    width: 100px;
+    height: 100px;
+    opacity:2px ;
+}
+
+.login{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    background: linear-gradient(white,#cceef1,#b1ecf0);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+    border-radius: 20%;
+    opacity: 0.7;
+    box-shadow: black;
+    padding: 20px;
+}
+h1{
+    padding: 5px;
+    margin: 5px;
+    color: black;
+
+}
+
+label{
+    padding: 5px;
+    margin: 5px;
+    color: black;
+}
+input{
+    
+    margin: 5px;
+    border-radius: 50px; /* sets the border radius to half of its width to create an oval shape */
+  padding: 10px 20px;
+}
+button{
+    border-radius: 50px; /* sets the border radius to half of its width to create an oval shape */
+    padding: 10px 20px;
+    margin: 5px;
+    width: 5px auto;
+}
+.emp{
+    margin-left: 200px;
+    height: 30vh;
+    width: 150px;
+}
+.png{
+    display: flex;
+    margin-right: 200px;
+}
